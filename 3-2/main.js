@@ -21,4 +21,9 @@ for(let i = 1 ; i <= tate ; i ++){
     } 
   }
   console.log(resault);
+<<<<<<< HEAD
 }  
+=======
+}  
+
+>>>>>>> 70f74f4059a19a173a3393162cf64d274a230196
