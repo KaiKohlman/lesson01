@@ -7,3 +7,4 @@ const money = process.argv[2];
 
   console.log(`100円玉${result100}枚、10円玉${result10}枚、1円玉${result1}枚`)
   
+
