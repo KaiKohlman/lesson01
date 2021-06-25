@@ -8,4 +8,5 @@ for(let i = 0; result.length <= 18; i ++){
   result += ' '
   }
 }
+
 console.log(result);

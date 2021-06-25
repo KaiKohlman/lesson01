@@ -6,7 +6,8 @@ const b = process.argv[3];
 function reverse(n){
   const fr = [];
   let splitn = n.split('');
-  for(i=0;i<=splitn.length;i++){
+  
+  for(i=0 ;i<=splitn.length ; i ++){
     fr.unshift(splitn[i]);
   }
   return fr.join('');
