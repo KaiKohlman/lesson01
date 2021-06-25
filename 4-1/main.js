@@ -7,5 +7,3 @@ function compare(a, b){
 
 all.sort(compare);
 console.log(all[2]);
-
-
