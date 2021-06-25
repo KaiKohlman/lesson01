@@ -1,3 +1,4 @@
+
 // 分布表
 // 15人の生徒のテストの点数の分布表を作って下さい
 
@@ -17,9 +18,9 @@ for(i=0;i<students.length;i++){
 // console.log(shishagonyuu);[ 10, 30, 100, 90, 20, 60, 70, 40,  60, 80, 80, 50,40, 30, 60]
 
 
-for (let i = 0; i < dosuu.length; i++) {
+for (let i = 10; i <=100; i+=10) {
   for (let j = 0; j < shishagonyuu.length; j++) {
-    if (dosuu[i]===shishagonyuu[j]) {
+    if (i===shishagonyuu[j]) {
       sum++;
     }
   }
@@ -31,7 +32,9 @@ for (let i = 0; i < dosuu.length; i++) {
 //分ける
 const max = Math.max(...devide);
   for(let i = 0;i < max; i++){
-    for(let j = 0;j < dosuu.length; j++){
+
+ for(let j = 0;j <= 10; j++){
+
       if(devide[j] >= max-i){
         result.push(' * ')
       }else{
@@ -53,4 +56,6 @@ for (var i = 10; i <= 100; i+=10) {
     a += i;
     a += " "
 }
+
 console.log(a);
+
