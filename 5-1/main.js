@@ -1,3 +1,4 @@
+// オブジェクトの名前：年齢を表示する。
 const profiles = {
   profiles: [
     {
@@ -17,4 +18,11 @@ const profiles = {
       age: 15
     }
   ]
+}
+
+
+const profile = profiles.profiles;
+
+for (let i = 0; i < profile.length; i++) {
+  console.log(profile[i].name + ":" + profile[i].age);
 }
